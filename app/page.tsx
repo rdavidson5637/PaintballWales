@@ -12,7 +12,7 @@ import YourDay from '@/components/YourDay'
 
 export default function Home() {
   return (
-    <main className="pb-20 pt-16 md:pb-0">
+    <main className="w-full max-w-full overflow-x-clip pb-20 pt-16 md:pb-0">
       <Hero />
       <PromoFeature />
 

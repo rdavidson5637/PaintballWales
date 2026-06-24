@@ -5,13 +5,13 @@ import { IMAGES } from '@/lib/images'
 export default function PromoFeature() {
   return (
     <section className="section-padding bg-black">
-      <ScrollReveal initialVisible className="max-container">
+      <ScrollReveal initialVisible className="max-container w-full max-w-full overflow-hidden">
         <Image
           src={IMAGES.heroPromotional}
           alt="Warrior Woods paintball in Snowdonia — best location, equipment and games"
           width={976}
           height={367}
-          className="h-auto w-full rounded-xl"
+          className="h-auto w-full max-w-full rounded-xl"
           sizes="(max-width: 768px) 100vw, 1200px"
           priority
         />

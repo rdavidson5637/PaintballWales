@@ -132,22 +132,22 @@ export default function FaqPage() {
   let globalIndex = 0
 
   return (
-    <main className="pb-20 pt-16 md:pb-0">
-      <section className="flex h-[40vh] min-h-[320px] items-center justify-center bg-surface section-padding">
-        <ScrollReveal initialVisible className="text-center">
+    <main className="w-full max-w-full overflow-x-clip pb-20 pt-16 md:pb-0">
+      <section className="flex h-[40vh] min-h-[320px] items-center justify-center overflow-x-clip bg-surface section-padding">
+        <ScrollReveal initialVisible className="w-full max-w-3xl px-2 text-center">
           <p className="font-display text-sm uppercase tracking-wider text-yellow">
             Paintball Wales
           </p>
-          <h1 className="mt-2 font-display text-5xl font-extrabold uppercase text-white">
+          <h1 className="mt-2 break-words font-display text-3xl font-extrabold uppercase text-white sm:text-4xl md:text-5xl">
             Frequently Asked Questions
           </h1>
-          <p className="mt-4 font-body text-lg text-muted">
+          <p className="mt-4 font-body text-base text-muted sm:text-lg">
             Can&apos;t find your answer? Just give us a call — we&apos;re always
             happy to chat.
           </p>
           <a
             href="tel:01248340000"
-            className="mt-4 block font-display text-3xl font-black text-yellow hover:underline"
+            className="mt-4 block break-all font-display text-2xl font-black text-yellow hover:underline sm:text-3xl"
           >
             01248 340000
           </a>
@@ -155,7 +155,7 @@ export default function FaqPage() {
       </section>
 
       <section className="section-padding bg-black pb-20">
-        <ScrollReveal initialVisible className="mx-auto max-w-3xl">
+        <ScrollReveal initialVisible className="mx-auto w-full min-w-0 max-w-3xl px-2">
           {faqGroups.map((group) => (
             <div key={group.category} className="mb-10">
               <h2 className="mb-4 font-display text-sm uppercase tracking-wider text-yellow">
@@ -203,7 +203,7 @@ export default function FaqPage() {
             </p>
             <a
               href="tel:01248340000"
-              className="mt-4 block text-center font-display text-4xl font-black text-yellow hover:underline"
+              className="mt-4 block break-all text-center font-display text-2xl font-black text-yellow hover:underline sm:text-3xl md:text-4xl"
             >
               01248 340000
             </a>

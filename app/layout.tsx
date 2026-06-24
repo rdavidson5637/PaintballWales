@@ -32,7 +32,7 @@ export default function RootLayout({
       lang="en"
       className={`${barlowCondensed.variable} ${inter.variable}`}
     >
-      <body>
+      <body className="overflow-x-clip">
         <Header />
         {children}
         <Footer />

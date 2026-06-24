@@ -7,11 +7,15 @@ html {
   background-color: #0a0a0a;
   scrollbar-width: thin;
   scrollbar-color: #f5c500 #141414;
+  overflow-x: clip;
 }
 
 body {
   font-family: 'Inter', sans-serif;
   color: #ffffff;
+  overflow-x: clip;
+  width: 100%;
+  min-width: 0;
 }
 
 ::selection {
@@ -32,13 +36,21 @@ body {
   border-radius: 4px;
 }
 
+@layer base {
+  img,
+  video,
+  iframe {
+    max-width: 100%;
+  }
+}
+
 @layer components {
   .section-padding {
     @apply py-20 px-4 md:px-8;
   }
 
   .max-container {
-    @apply mx-auto max-w-7xl;
+    @apply mx-auto max-w-7xl min-w-0;
   }
 
   .yellow-underline {

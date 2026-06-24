@@ -39,7 +39,7 @@ export default function Header() {
   }
 
   return (
-    <header className="fixed top-0 z-50 w-full border-b border-border bg-black/95 backdrop-blur-sm">
+    <header className="fixed top-0 z-50 w-full max-w-[100vw] overflow-x-clip border-b border-border bg-black/95 backdrop-blur-sm">
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 md:px-8">
         <Link href="/" onClick={closeMenu} className="shrink-0">
           <Image

@@ -40,7 +40,7 @@ function ChatIcon() {
 
 export default function StickyPhoneBar() {
   return (
-    <div className="fixed bottom-0 z-50 flex w-full md:hidden">
+    <div className="fixed bottom-0 left-0 right-0 z-50 flex md:hidden">
       <a
         href="tel:01248340000"
         className="flex w-1/2 items-center justify-center gap-2 bg-yellow py-4 font-display text-sm font-bold uppercase text-black"

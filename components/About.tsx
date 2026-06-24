@@ -6,7 +6,7 @@ import { IMAGES } from '@/lib/images'
 export default function About() {
   return (
     <section className="section-padding bg-surface">
-      <ScrollReveal className="max-container grid grid-cols-1 gap-16 md:grid-cols-2">
+      <ScrollReveal className="max-container grid w-full min-w-0 grid-cols-1 gap-16 md:grid-cols-2">
         <div>
           <p className="font-display text-sm uppercase tracking-wider text-yellow">
             Established Over 20 Years Ago

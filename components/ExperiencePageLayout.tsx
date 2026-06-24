@@ -91,7 +91,7 @@ export default function ExperiencePageLayout({
     includedGridCols === 3 ? 'md:grid-cols-3' : 'md:grid-cols-2'
 
   return (
-    <main className="pb-20 pt-16 md:pb-0">
+    <main className="w-full max-w-full overflow-x-clip pb-20 pt-16 md:pb-0">
       <section className="relative flex h-[60vh] min-h-[400px] items-center justify-center overflow-hidden bg-black">
         {heroImage ? (
           <Image
@@ -110,7 +110,7 @@ export default function ExperiencePageLayout({
           <p className="font-display text-sm uppercase tracking-widest text-yellow">
             {heroEyebrow}
           </p>
-          <h1 className="mt-3 font-display text-4xl font-extrabold uppercase leading-tight text-white md:text-6xl">
+          <h1 className="mt-3 break-words font-display text-3xl font-extrabold uppercase leading-tight text-white sm:text-4xl md:text-6xl">
             {heroH1}
           </h1>
           <p className="mx-auto mt-4 max-w-2xl font-body text-lg text-muted">

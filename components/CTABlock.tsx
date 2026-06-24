@@ -12,16 +12,16 @@ export default function CTABlock({
   subheading = "Call us now — we're friendly, we don't bite. We shoot.",
 }: CTABlockProps) {
   return (
-    <section className="bg-yellow px-4 py-16 text-black">
-      <div className="mx-auto max-w-4xl text-center">
-        <h2 className="font-display text-4xl font-extrabold uppercase md:text-5xl">
+    <section className="overflow-x-clip bg-yellow px-4 py-16 text-black">
+      <div className="mx-auto w-full max-w-4xl text-center">
+        <h2 className="break-words font-display text-3xl font-extrabold uppercase sm:text-4xl md:text-5xl">
           {heading}
         </h2>
-        <p className="mt-2 font-body text-lg opacity-80">{subheading}</p>
+        <p className="mt-2 font-body text-base opacity-80 sm:text-lg">{subheading}</p>
 
         <a
           href="tel:01248340000"
-          className="mt-6 block font-display text-5xl font-black hover:underline md:text-6xl"
+          className="mt-6 block break-all font-display text-3xl font-black leading-tight hover:underline sm:text-4xl md:text-5xl lg:text-6xl"
         >
           01248 340000
         </a>

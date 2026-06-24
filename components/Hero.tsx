@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-black">
       <ScrollReveal
         initialVisible
-        className="relative z-10 mx-auto max-w-4xl px-4 py-24 text-center md:px-8"
+        className="relative z-10 mx-auto w-full max-w-4xl px-4 py-24 text-center md:px-8"
       >
         <Image
           src={IMAGES.logo}
@@ -23,11 +23,11 @@ export default function Hero() {
           North Wales · Snowdonia
         </p>
 
-        <h1 className="mt-3 font-display text-5xl font-extrabold uppercase leading-none text-white md:text-7xl">
+        <h1 className="mt-3 break-words font-display text-3xl font-extrabold uppercase leading-tight text-white sm:text-4xl md:text-5xl lg:text-7xl">
           North Wales&apos; Premier Paintball Adventure
         </h1>
 
-        <div className="mx-auto mt-6 max-w-3xl space-y-4 text-left font-body text-base leading-relaxed text-muted md:text-lg">
+        <div className="mx-auto mt-6 w-full max-w-3xl space-y-4 break-words text-left font-body text-base leading-relaxed text-muted md:text-lg">
           <p>
             PaintballWales.com is the longest-established dedicated Outdoor
             Activity Paintball Park in North Wales and the Snowdonia National
@@ -35,19 +35,19 @@ export default function Hero() {
             with over 20 years experience!
           </p>
 
-          <p className="font-display text-xl font-bold uppercase text-white md:text-2xl">
+          <p className="break-words font-display text-lg font-bold uppercase text-white sm:text-xl md:text-2xl">
             PaintballWales.com – The Ultimate Paintball Experience!!
           </p>
 
-          <p className="font-display text-lg font-bold uppercase tracking-wide text-yellow">
+          <p className="font-display text-base font-bold uppercase tracking-wide text-yellow sm:text-lg">
             Always Book Direct!
           </p>
 
-          <p className="font-display text-lg text-white">
+          <p className="flex flex-col gap-1 font-display text-base text-white sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-2 sm:text-lg">
             <a href="tel:01248340000" className="hover:text-yellow hover:underline">
               Tel. 01248 340000
             </a>
-            <span className="mx-2 text-muted">/</span>
+            <span className="hidden text-muted sm:inline">/</span>
             <a href="tel:07557340000" className="hover:text-yellow hover:underline">
               Mob. 07557 340000
             </a>

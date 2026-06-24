@@ -21,7 +21,7 @@ export default function ScrollReveal({
   return (
     <div
       ref={ref}
-      className={`transition-all duration-700 ease-out ${
+      className={`transition-all duration-700 ease-out will-change-transform ${
         show ? 'translate-y-0' : 'translate-y-6'
       } ${className}`}
     >
