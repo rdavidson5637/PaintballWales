@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0a0a0a;
+  scrollbar-width: thin;
+  scrollbar-color: #f5c500 #141414;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+}
+
+::selection {
+  background: #f5c500;
+  color: #0a0a0a;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f5c500;
+  border-radius: 4px;
+}
+
+@layer components {
+  .section-padding {
+    @apply py-20 px-4 md:px-8;
+  }
+
+  .max-container {
+    @apply mx-auto max-w-7xl;
+  }
+
+  .yellow-underline {
+    display: block;
+    width: 48px;
+    height: 4px;
+    margin-top: 12px;
+    background: #f5c500;
+  }
+}
