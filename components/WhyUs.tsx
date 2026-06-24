@@ -7,8 +7,8 @@ const stats = [
     label: 'Experience running paintball in North Wales',
   },
   {
-    value: 'From £5',
-    label: 'Permanently cheaper prices — no vouchers, no gimmicks',
+    value: 'Book Direct',
+    label: 'Always book direct — no voucher sites, no gimmicks',
   },
   {
     value: 'Air Powered',

@@ -8,7 +8,7 @@ export default function PromoFeature() {
       <ScrollReveal initialVisible className="max-container">
         <Image
           src={IMAGES.heroPromotional}
-          alt="Warrior Woods paintball in Snowdonia — best location, equipment, prices and games"
+          alt="Warrior Woods paintball in Snowdonia — best location, equipment and games"
           width={976}
           height={367}
           className="h-auto w-full rounded-xl"

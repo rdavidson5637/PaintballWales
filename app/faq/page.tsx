@@ -10,9 +10,9 @@ const faqGroups = [
     category: 'General',
     items: [
       {
-        question: 'How much does it cost?',
+        question: 'How do I book?',
         answer:
-          "We keep our prices permanently low — no voucher sites, no complicated packages, no hidden fees. Standard paintball starts from just £5. Birthday party packages from £12.50 per player. Call us and we'll talk through the best option for your group — we won't pressure you into anything, and you don't need to pay until you're ready to book.",
+          "Give us a call and we'll talk through the best option for your group — we won't pressure you into anything, and you don't need to commit until you're ready to book.",
       },
       {
         question: 'Do I need to book in advance?',
@@ -67,7 +67,7 @@ const faqGroups = [
       {
         question: 'Can we bring our own food?',
         answer:
-          "Absolutely — and we encourage it. Unlike a lot of venues, we don't charge inflated prices for food and drink. Bring a picnic, bring a birthday cake. Make a proper day of it.",
+          "Absolutely — and we encourage it. Bring a picnic, bring a birthday cake. Make a proper day of it.",
       },
       {
         question: 'Do you cater for mixed age groups?',
@@ -77,7 +77,7 @@ const faqGroups = [
       {
         question: 'What happens if we need to cancel?',
         answer:
-          "Site fees and booking fees are strictly non-refundable and non-transferable. However, if we need to postpone due to extreme weather or circumstances outside our control, we'll give you as much notice as possible and arrange an alternative date.",
+          "Once confirmed, bookings are strictly non-refundable and non-transferable. However, if we need to postpone due to extreme weather or circumstances outside our control, we'll give you as much notice as possible and arrange an alternative date.",
       },
     ],
   },

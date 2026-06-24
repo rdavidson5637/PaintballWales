@@ -40,7 +40,7 @@ export default function Hero() {
           </p>
 
           <p className="font-display text-lg font-bold uppercase tracking-wide text-yellow">
-            Save &amp; Always Book Direct!
+            Always Book Direct!
           </p>
 
           <p className="font-display text-lg text-white">
@@ -58,7 +58,7 @@ export default function Hero() {
             at the foot of the beautiful Snowdonia National Park. Perfectly
             situated for North and Mid-Wales, Wirral, Chester, and the Liverpool
             and Manchester area. Even if you&apos;re coming from outside the
-            area, our prices, super-friendly staff, fun &apos;n&apos; party
+            area, our super-friendly staff, fun &apos;n&apos; party
             atmosphere and beautiful location merely 5 mins from the picture
             postcard pretty village of Llanberis at the foot of Mount Snowdon
             are well worth the drive to make a day out of it! PaintballWales.com
@@ -74,7 +74,7 @@ export default function Hero() {
         </Link>
 
         <p className="mt-3 font-body text-xs text-muted">
-          No payment needed to enquire — we&apos;ll call you back
+          No commitment needed to enquire — we&apos;ll call you back
         </p>
       </ScrollReveal>
 

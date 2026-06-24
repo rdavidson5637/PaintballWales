@@ -44,7 +44,7 @@ export default function StagHenPage() {
         },
       ]}
       ctaHeading="Make Their Day Unforgettable"
-      ctaSubheading="Call us and we'll plan the whole thing for you. No payment until you're sure."
+      ctaSubheading="Call us and we'll plan the whole thing for you."
     />
   )
 }

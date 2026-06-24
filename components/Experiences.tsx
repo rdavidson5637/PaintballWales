@@ -13,7 +13,7 @@ const experiences = [
     href: '/birthday-parties',
     title: 'BIRTHDAY PARTIES',
     description:
-      'The most cost-effective birthday with a difference. Packages from £12.50 per player — bring your own cake and make a day of it.',
+      'An unforgettable birthday with a difference — bring your own cake and make a day of it.',
   },
   {
     href: '/kids-low-impact',

@@ -19,7 +19,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'Paintball Wales | North Wales Premier Paintball',
   description:
-    'North Wales most established paintball park in the heart of Snowdonia. From £5. Stag & hen, birthdays, kids, team building. Call 01248 340000.',
+    'North Wales most established paintball park in the heart of Snowdonia. Stag & hen, birthdays, kids, team building. Call 01248 340000.',
 }
 
 export default function RootLayout({

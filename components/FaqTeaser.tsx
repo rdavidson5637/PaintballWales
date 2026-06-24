@@ -7,9 +7,9 @@ import ScrollReveal from '@/components/ScrollReveal'
 
 const faqs = [
   {
-    question: 'How much does it cost?',
+    question: 'How do I book?',
     answer:
-      "We keep our prices permanently low — no voucher sites, no hidden fees, no complicated packages. Give us a call and we'll talk you through the best option for your group. From only £5.",
+      "Give us a call and we'll talk through the best option for your group — we won't pressure you into anything, and you don't need to commit until you're ready.",
   },
   {
     question: 'What age can kids play?',

@@ -38,7 +38,7 @@ export default function YourDayPage() {
         "We use Tippmann FT-12 Flip-Top semi-automatic markers — the latest model, used by pro players worldwide. And we run on air cylinders, not CO₂, because that's the pro standard and it's better for everyone.",
         "The day ends with an awards presentation and team photos. We'll get them up on our Facebook page so you can share them with everyone who wasn't there — and make them wish they had been.",
       ]}
-      callout="Not sure what package is right for your group? Just call us. We'll talk you through everything and help you pick the best option. No payment until you're sure."
+      callout="Not sure what package is right for your group? Just call us. We'll talk you through everything and help you pick the best option."
       belowMainContent={
         <>
           <div className="mt-10 rounded-xl bg-black p-8">
